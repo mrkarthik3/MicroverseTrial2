@@ -1,10 +1,43 @@
 #navbar {
     position: fixed;
-    margin-left: 200px;
+    background-color: chocolate;
+    border-style: groove;
+    /* margin-left: 200px; */
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     body {
       background-color: lightblue;
     }
+
+    #navbar {
+      position: relative;
+      background-color: chocolate;
+      border-style: groove;
+      text-align: left;
+      /* margin-left: 200px; */
+  
+  }
+
+    #main-doc{
+      /* margin-left: 270px; */
+      /* margin-top: 250px; */
+      background-color: chocolate;
+      padding-left: 10px;
+      text-align: justify;
+      border-style: groove;
+    }
     
+
+}
+
+#main-doc{
+  margin-left: 270px;
+  background-color: chocolate;
+  padding-left: 15px;
+  border-style: groove;
+}
+
+code {
+  background-color: lightslategrey;
+}

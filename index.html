@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microverse Trial 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav id="navbar">
@@ -20,16 +21,19 @@
 
 
         <section class="main-section">
-            <header id="JavaScript_Arrays">JavaScript Arrays</header>
+            <h3><header id="JavaScript_Arrays">JavaScript Arrays</header></h3>
 
             <p>What is an Array?
 
                 An array is a special variable, which can hold more than one value at a time.
                 
-                If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
-                var car1 = "Saab";
-                var car2 = "Volvo";
-                var car3 = "BMW";
+                If you have a list of items (a list of car names, for example), storing the cars
+                in single variables could look like this: <br> <br>
+                <code>
+                    var car1 = "Saab";<br>
+                    var car2 = "Volvo";<br>
+                    var car3 = "BMW";
+                </code><br><br>
                 
                 However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
                 
@@ -38,9 +42,14 @@
                 An array can hold many values under a single name, and you can access the values by referring to an index number.
                 </p>
             
-                <ol>
-                    <li></li>
-                    <li></li>
+                
+                <ol> <span> <strong>Some Array Methods:</strong> </span> <br>
+                    
+                    <li>find()</li>
+                    <li>findIndex()</li>
+                    <li>forEach()</li>
+                    <li>filter()</li>
+                    <li>concat()</li>
                 </ol>
             
                 <p>Creating an Array
@@ -53,24 +62,26 @@
         </section>
 
         <section class="main-section">
-            <header id="JavaScript_Booleans">JavaScript Booleans</header>
+            <h3><header id="JavaScript_Booleans">JavaScript Booleans</header></h3>
             <p>JavaScript Booleans
 
                 A JavaScript Boolean represents one of two values: true or false.
                 Boolean Values
                 
                 Very often, in programming, you will need a data type that can only have one of two values, like
-                
-                    YES / NO
-                    ON / OFF
-                    TRUE / FALSE
-                
+                <br> <br>
+                <code>
+                    YES / NO <br>
+                    ON / OFF <br> 
+                    TRUE / FALSE <br>
+                </code>
+                <br>
                 For this, JavaScript has a Boolean data type. It can only take the values true or false.
                 </p>
             
-                <ol>
-                    <li></li>
-                    <li></li>
+                <ol><span> <strong>Some Boolean Methods:</strong> </span>
+                    <li>toString()</li>
+                    <li>valueOf()</li>
                 </ol>
                 
             
@@ -86,7 +97,7 @@
         </section>
 
         <section class="main-section">
-            <header id="JavaScript_Classes">JavaScript Classes</header>
+            <h3><header id="JavaScript_Classes">JavaScript Classes</header></h3>
             <p>ECMAScript 2015
 
                 ES6, also known as ECMAScript2015, introduced classes.
@@ -98,9 +109,9 @@
                 
                 The constructor method is called each time the class object is initialized.</p>
             
-                <ol>
-                    <li></li>
-                    <li></li>
+                <ol><span> <strong> Only 1 Class is available:</strong> </span>
+                    <li>constructor()</li>
+                    
                 </ol>
                 
             
@@ -108,16 +119,16 @@
 
                 A simple class definition for a class named "Car":
                 </p>
-            <code>class Car {
-                constructor(brand) {
-                  this.carname = brand;
+            <code>class Car {<br>
+                constructor(brand) {<br>
+                  this.carname = brand;<br>
                 }
-              }</code>
+              }</code><br><br>
 
         </section>
 
         <section class="main-section">
-            <header id="Date_Object">Date Object</header>
+            <h3><header id="Date_Object">Date Object</header></h3>
             <p>JavaScript Date Objects
 
                 JavaScript Date Object lets us work with dates:
@@ -126,9 +137,11 @@
                 Example
                 var d = new Date();</p>
             
-                <ol>
-                    <li></li>
-                    <li></li>
+                <ol> <span> <strong>Some Date Methods:</strong> </span>
+                    <li>getMonth()</li>
+                    <li>getTime()</li>
+                    <li>getUTCDate()</li>
+                    <li>getSeconds()</li>
                 </ol>
                 
             <p>Creating Date Objects
@@ -136,34 +149,42 @@
                 Date objects are created with the new Date() constructor.
                 
                 There are 4 ways to create a new date object:</p>
-            <code>new Date()
-                new Date(year, month, day, hours, minutes, seconds, milliseconds)
-                new Date(milliseconds)
-                new Date(date string)</code>
+                
+            <code>new Date() <br>
+                new Date(year, month, day, hours, minutes, seconds, milliseconds) <br>
+                new Date(milliseconds) <br>
+                new Date(date string) <br></code><br>
 
         </section>
         
         <section class="main-section">
-            <header id="JavaScript_Numbers">JavaScript Numbers</header>
+            <h3><header id="JavaScript_Numbers">JavaScript Numbers</header></h3>
             <p>JavaScript Numbers
 
                 JavaScript has only one type of number. Numbers can be written with or without decimals.
                 Example
-                var x = 3.14;    // A number with decimals
-                var y = 3;       // A number without decimals
-                
+                <code> <br>
+                var x = 3.14;    // A number with decimals <br>
+                var y = 3;       // A number without decimals <br>
+            </code> <br>
                 </p>
             
-                <ol>
-                    <li></li>
-                    <li></li>
+                <ol><span> <strong>Some Number Methods:</strong> </span>
+                    <li>isFininte()</li>
+                    <li>isInteger()</li>
+                    <li>isNan()</li>
+                    <li>isSafeInteger()</li>
+                    <li>toFixed(x)</li>
+
             </ol>
             
             <p>Extra large or extra small numbers can be written with scientific (exponent) notation:
                 Example
-                var x = 123e5;    // 12300000</p>
-            <code> var x = 123e5;    // 12300000
-                var y = 123e-5;   // 0.00123 </code>
+                </p><br>
+            <code>
+                var x = 123e5;    // 12300000 <br>
+                var x = 123e5;    // 12300000 <br>
+                var y = 123e-5;   // 0.00123  <br></code>
         </section>
 
 
