@@ -7,6 +7,7 @@
 </head>
 <body>
     <nav id="navbar">
+        <header>Page content</header>
         <span>JavaScript Arrays </span> <a href="#JavaScript_Arrays" class="nav-link">click here</a><br>
         <span>JavaScript Booleans </span><a href="#JavaScript_Booleans" class="nav-link">click here</a><br>
         <span>JavaScript Classes </span> <a href="#JavaScript_Classes" class="nav-link">click here</a><br>
@@ -21,37 +22,97 @@
         <section class="main-section">
             <header id="JavaScript_Arrays">JavaScript Arrays</header>
 
-            <p></p>
-            <li>
-                <ol></ol>
-                <ol></ol>
-            </li>
-            <p></p>
-            <code></code>
+            <p>What is an Array?
+
+                An array is a special variable, which can hold more than one value at a time.
+                
+                If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+                var car1 = "Saab";
+                var car2 = "Volvo";
+                var car3 = "BMW";
+                
+                However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
+                
+                The solution is an array!
+                
+                An array can hold many values under a single name, and you can access the values by referring to an index number.
+                </p>
+            
+                <ol>
+                    <li></li>
+                    <li></li>
+                </ol>
+            
+                <p>Creating an Array
+
+                    Using an array literal is the easiest way to create a JavaScript Array.
+                    
+                    Syntax: </p>
+            <code>var array_name = [item1, item2, ...];    </code>
 
         </section>
 
         <section class="main-section">
             <header id="JavaScript_Booleans">JavaScript Booleans</header>
-            <p></p>
-            <li>
-                <ol></ol>
-                <ol></ol>
-            </li>
-            <p></p>
-            <code></code>
+            <p>JavaScript Booleans
+
+                A JavaScript Boolean represents one of two values: true or false.
+                Boolean Values
+                
+                Very often, in programming, you will need a data type that can only have one of two values, like
+                
+                    YES / NO
+                    ON / OFF
+                    TRUE / FALSE
+                
+                For this, JavaScript has a Boolean data type. It can only take the values true or false.
+                </p>
+            
+                <ol>
+                    <li></li>
+                    <li></li>
+                </ol>
+                
+            
+            <p>The Boolean() Function
+
+                You can use the Boolean() function to find out if an expression (or a variable) is true:
+                Example
+                 </p>
+            <code>Boolean(10 > 9)        // returns true
+                (10 > 9)              // also returns true
+                10 > 9                // also returns true </code>
 
         </section>
 
         <section class="main-section">
             <header id="JavaScript_Classes">JavaScript Classes</header>
-            <p></p>
-            <li>
-                <ol></ol>
-                <ol></ol>
-            </li>
-            <p></p>
-            <code></code>
+            <p>ECMAScript 2015
+
+                ES6, also known as ECMAScript2015, introduced classes.
+                
+                A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
+                Class Definition
+                
+                Use the keyword class to create a class, and always add the constructor() method.
+                
+                The constructor method is called each time the class object is initialized.</p>
+            
+                <ol>
+                    <li></li>
+                    <li></li>
+                </ol>
+                
+            
+            <p>Example
+
+                A simple class definition for a class named "Car":
+                </p>
+            <code>class Car {
+                constructor(brand) {
+                  this.carname = brand;
+                }
+              }</code>
 
         </section>
 
