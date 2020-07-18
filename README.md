@@ -4,4 +4,4 @@
 
 You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
 
-**Note**  We forgot to fork the project. So, I made necessary adjustments so that it is easy for you to evaluate the project. 
+**Note**  We forgot to add files to the project. So, I made necessary adjustments so that it is easy for you to evaluate the project. 
